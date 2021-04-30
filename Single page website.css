@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	background-image: url(cover.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.logo{
+	position: absolute;
+	display: block;
+}
+.logo img{
+	width: 100px;
+	padding: 20px;
+}
+.logo div{
+	text-align:center;
+	line-height:0px;
+	color: magenta;
+}
+.menu{
+	padding-top: 20px;
+	padding-left:35%;
+}
+.menu ul li{
+	display: inline-block;
+	}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+.menu ul li a:hover,.menu ul li a.active
+{
+	color: magenta;
+}
+.button{
+	position: absolute;
+	right: 25px;
+	top: 17px;
+}
+.button .btn{
+	margin: 5px;
+	border-radius: 3px;
+	font-size: 12px;
+	padding:0px 5px;
+	border-color: magenta;
+}
+.button .btn:hover{
+	color: magenta;
+}
+.container{
+	border:2px solid magenta;
+	margin:200px 90px;
+	padding: 10px 50px;
+	width: 38%;
+	border-radius: 10px;
+}
+.container h1{
+	text-align: center;
+}
+.fill input{
+	border-color:magenta;
+	border-radius: 10px;
+	width: 400px;
+	margin: 8px;
+	padding: 5px;
+	color: magenta;
+	text-align: center;
+}
+form{
+	text-align: center;
+}
+.btn{
+	width: 100px;
+	border-color: magenta;
+	border-radius: 5px;
+	padding:10px;
+	margin-top: 10px;
+
+}
